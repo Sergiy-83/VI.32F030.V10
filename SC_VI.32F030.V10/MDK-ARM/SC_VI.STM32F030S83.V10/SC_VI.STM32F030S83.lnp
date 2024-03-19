@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+"sc_vi.stm32f030s83.v10\startup_stm32f030x6.o"
+"sc_vi.stm32f030s83.v10\leds.o"
+"sc_vi.stm32f030s83.v10\main.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_it.o"
+"sc_vi.stm32f030s83.v10\devdata.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal_i2c.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal_i2c_ex.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal_rcc.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal_rcc_ex.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal_gpio.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal_dma.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal_cortex.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal_pwr.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal_pwr_ex.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal_flash.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal_flash_ex.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal_exti.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal_tim.o"
+"sc_vi.stm32f030s83.v10\stm32f0xx_hal_tim_ex.o"
+"sc_vi.stm32f030s83.v10\system_stm32f0xx.o"
+"sc_vi.stm32f030s83.v10\eventrecorder.o"
+"sc_vi.stm32f030s83.v10\retarget_io.o"
+--strict --scatter "SC_VI.STM32F030S83.V10\SC_VI.STM32F030S83.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SC_VI.STM32F030S83.map" -o SC_VI.STM32F030S83.V10\SC_VI.STM32F030S83.V10
